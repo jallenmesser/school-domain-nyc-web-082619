@@ -4,7 +4,7 @@ require "pry"
 class School
   attr_reader :school_name, :roster
   
-  ROSTER = {}
+  #ROSTER = {}
   
   def initialize(school_name)
     @school_name = school_name
@@ -19,4 +19,8 @@ class School
       @roster[grade] << name
     end
   end 
+  
+  def grade(grade_level)
+    
+  end
 end 
