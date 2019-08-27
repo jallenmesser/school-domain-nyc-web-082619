@@ -11,7 +11,6 @@ class School
   end
   
   def add_student(name, grade)
-    binding.pry
     if ROSTER[grade]
       ROSTER[grade] << name
     else
